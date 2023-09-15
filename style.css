@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk Variable';
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf),
+    url(assets/fonts/static/HankenGrotesk-Bold.ttf),
+    url(assets/fonts/static/HankenGrotesk-ExtraBold.ttf),
+    url(assets/fonts/static/HankenGrotesk-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+#body {
+    font-family: 'Chicle', cursive;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+    font-family: 'Hanken Grotesk', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-summary {
+    border-radius: 30px;
+    display: flex;
+    margin-top: 100px;
+    height: 400px;
+    width: 600px;
+    background-color: fffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.left-content {
+    color: #B3AFFF;
+    text-align: center;
+    border-radius: 30px;
+    height: 400px;
+    width: 300px;
+    background-color: #4D38F5;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-text {
+    margin-top: 20px;
+}
+
+.circle {
+    border-radius: 150px;
+    margin-top: 20px;
+    margin-left: 75px;
+    height: 150px;
+    width: 150px;
+    background-color: #4D38F5;
+    background: linear-gradient(to bottom, #4827D0, #4D38F5);
+    align-items: center;
+    justify-content: center;
+}
+
+.first-number {
+    font-weight: 800;
+    color: white;
+    padding-top: 35px;
+    font-size: 50px;
+}
+
+.second-number {
+    padding-top: 0px;
+}
+
+.first-bottom-text {
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.second-bottom-text {
+    margin: 0 40px 0 40px;
+    width: 220px;
+    margin-top: 20px;
+}
+
+.right-content {
+    border-radius: 30px;
+    height: 400px;
+    width: 300px;
+    background-color: fffff;
+}
+
+.summary {
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.satu {
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin: 25px  30px 10px 30px;
+    height: 40px;
+    width: 240px;
+    background-color: rgba(200, 0, 0, 0.1);
+    color: rgba(200, 0, 0);
+}
+
+.img-reaction {
+    margin-left: 10px;
+    height: 20px;
+    width: 12%;
+}
+
+.left-reaction {
+    width: 58%;
+}
+
+.right-reaction {
+    display: flex;
+    width: 30%;
+}
+
+.first-right-reaction {
+    color: black;
+}
+
+.second-right-reaction {
+    margin-left: 5px;
+    color: rgb(126, 126, 126);
+}
+
+.dua {
+    align-items: center;
+    display: flex;
+    margin: 5px 30px 10px 30px;
+    border-radius: 10px;
+    height: 40px;
+    width: 240px;
+    background-color: rgba(200, 160, 0, 0.1);
+    color: rgba(200, 160, 0);
+}
+
+.img-memory {
+    margin-left: 10px;
+    height: 20px;
+    width: 12%;
+}
+
+.left-memory {
+    width: 58%;
+}
+
+.right-memory {
+    display: flex;
+    width: 30%;
+}
+
+.first-right-memory {
+    color: black;
+}
+
+.second-right-memory {
+    margin-left: 5px;
+    color: rgb(126, 126, 126);
+}
+
+.tiga {
+    align-items: center;
+    display: flex;
+    margin: 5px 30px 10px 30px;
+    border-radius: 10px;
+    height: 40px;
+    width: 240px;
+    background-color: rgba(0, 200, 0, 0.1);
+    color: rgba(0, 200, 0);
+}
+
+.img-verbal {
+    margin-left: 10px;
+    height: 20px;
+    width: 12%;
+}
+
+.left-verbal {
+    width: 58%;
+}
+
+.right-verbal {
+    display: flex;
+    width: 30%;
+}
+
+.first-right-verbal {
+    color: black;
+}
+
+.second-right-verbal {
+    margin-left: 5px;
+    color: rgb(126, 126, 126);
+}
+
+.empat {
+    align-items: center;
+    display: flex;
+    margin: 5px 30px 10px 30px;
+    border-radius: 10px;
+    height: 40px;
+    width: 240px;
+    background-color: rgba(120, 0, 200, 0.1);
+}
+
+.img-visual {
+    margin-left: 10px;
+    height: 20px;
+    width: 12%;
+}
+
+.left-visual {
+    color: rgb(0, 0, 200);
+    width: 58%;
+}
+
+.right-visual {
+    display: flex;
+    width: 30%;
+}
+
+.first-right-visual {
+    color: black;
+}
+
+.second-right-visual {
+    margin-left: 5px;
+    color: rgb(126, 126, 126);
+}
+
+.submit-button {
+    cursor: pointer;
+    margin: 0 30px 0 30px;
+    border: none;
+    width: 240px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(63, 69, 94);
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #4D38F5;
+
+}
